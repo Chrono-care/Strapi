@@ -16,10 +16,6 @@
       "type": "string",
       "required": true
     },
-    "content": {
-      "type": "text",
-      "required": true
-    },
     "ratio": {
       "type": "integer",
       "default": 0
@@ -33,6 +29,9 @@
     },
     "cover_img_url": {
       "type": "string"
+    },
+    "content": {
+      "type": "blocks"
     }
   }
 }
